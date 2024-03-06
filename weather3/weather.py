@@ -34,7 +34,7 @@ def getWeather():
     clock.config(text=current_time)
 
     #weather
-    api = "8276ee7c9cbb006971fb86195a55c0d9"
+    api = "api_key"
     BASE_URL = "https://api.openweathermap.org/data/2.5/weather?"
 
     URL = BASE_URL + "q=" + city + "&appid=" + api
