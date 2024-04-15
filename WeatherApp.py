@@ -17,7 +17,7 @@ def getWeather():
     city=textfield.get()
     
     # API request
-    api_key = "eaf46c40eb14566f3a84462ff80664df"
+    api_key = ""
     base_url = "https://api.openweathermap.org/data/2.5/weather?"
     url = f"{base_url}q={city}&appid={api_key}"
 
